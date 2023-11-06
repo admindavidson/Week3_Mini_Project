@@ -1,0 +1,117 @@
+body{
+	font-family: arial body, calibri, sans-serif;
+}
+
+.banner{
+	height:750px;
+	background-color:grey;
+	background-image:url("../images/banner.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment: fixed;
+	
+}
+
+.overlay{
+	height:inherit;
+	background-color:rgba(0,0,0,0.6);
+}
+
+.header{
+	display:flex;
+	justify-content:space-between;
+	margin:0px 200px;
+	color:white;
+}
+
+.header .logo-area{
+	width:30%;
+	
+}
+
+.header .logo-area h4{
+	display:inline-block;
+	margin-top:15px;
+}
+.header .logo-area #logo{
+	max-width:20px;
+	margin-top:15px;
+	
+}
+
+
+.navigation{
+	
+	margin-left:15px;
+}
+
+
+.navigation ul li{
+	text-decoration:none;
+	display:inline-block;
+	margin-right:15px;
+	text-align:right;
+}
+
+.maincontent{
+	display:flex;
+	justify-content:space-between;
+	margin:130px 200px 80px;
+	color:white;
+}
+
+.welcome{
+	justify-content:center;
+	padding:50px 60px 30px 0px; 
+	width:70%;
+}
+
+.welcome button{
+	background:transparent;
+	margin-top:10px;
+	padding:10px 20px;
+	color:white;
+	border: solid white;
+	border-radius:3px;
+}
+
+.welcome h1 h3{
+	font-size:50px
+}
+
+.formarea{
+	color:black;
+	background-color:white;
+	justify-content:center;
+	padding-left:25px;
+}
+
+.formarea p span{
+	color:deeppink;
+}
+
+.formarea form{
+	margin:20px;
+	
+}
+.formarea form input, select{
+	display:block;
+	padding:10px;
+	margin-left:-20px;
+	margin-bottom:10px;
+	margin-right:10px;
+	width:90%;
+	border:0px;
+	background-color:lightgray;
+}
+
+form select{
+	color:gray;
+	width:245px;
+}
+
+#form_button{
+	background-color:deeppink;
+	color:white;
+	width:245px;
+}
